@@ -1,0 +1,8 @@
+# R packages required for replication
+# Install with: install.packages(readLines("requirements.txt"))
+
+tidyverse
+here
+fixest
+knitr
+readxl

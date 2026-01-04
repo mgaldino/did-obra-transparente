@@ -47,3 +47,10 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Original materials (too large for git, keep as reference only)
+original/
+
+# Large data files
+*.xlsx
+data/raw/treated_municipalities_source.xlsx
