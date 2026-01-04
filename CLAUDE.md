@@ -14,6 +14,35 @@ Este projeto tem como objetivo **reorganizar completamente e criar documentaçã
 
 **Localização dos materiais originais**: `~/Documents/DCP/Papers/Obra Transparente/obra_transparente`
 
+## REGRAS DE SEGURANÇA DO SISTEMA DE ARQUIVOS
+
+### Working Directory
+- **SEMPRE** trabalhe em: `/Users/manoelgaldino/Documents/DCP/Papers/DiDObraTransparente/did-obra-transparente`
+- Verifique com `getwd()` em R ou `pwd` no bash antes de começar
+- Use `here::here()` para TODOS os caminhos relativos
+
+### Pasta Original (Somente Leitura)
+- Pasta: `~/Documents/DCP/Papers/Obra Transparente/obra_transparente`
+- **SOMENTE CÓPIA** - nunca modificar ou deletar
+- Use Task 0.2 para copiar para `original/` no projeto
+- Depois, trabalhe apenas em `original/` (cópia local)
+
+### Regras Estritas
+1. ❌ NUNCA deletar arquivos fora do diretório do projeto
+2. ❌ NUNCA modificar `~/Documents/DCP/Papers/Obra Transparente/obra_transparente`
+3. ✅ SEMPRE usar caminhos relativos com `here::here()`
+4. ✅ SEMPRE confirmar working directory antes de operações destrutivas
+5. ✅ Pedir confirmação antes de deletar qualquer arquivo
+
+### Estrutura Esperada
+```
+/Users/manoelgaldino/Documents/DCP/Papers/DiDObraTransparente/did-obra-transparente/
+├── original/          # ← Cópia dos arquivos antigos (somente leitura)
+├── code/             # ← Novo código limpo
+├── data/             # ← Dados organizados
+├── output/           # ← Outputs gerados
+└── ...
+```
 ---
 
 ## IMPORTANTE: Pontos de Parada e Verificação (🛑)
