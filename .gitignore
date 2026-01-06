@@ -53,4 +53,7 @@ original/
 
 # Large data files
 *.xlsx
+*.Rdata
 data/raw/treated_municipalities_source.xlsx
+data/raw/simec_snapshots/
+data/processed/*.Rdata

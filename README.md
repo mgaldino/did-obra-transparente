@@ -18,7 +18,7 @@ The Obra Transparente project was implemented by Transparência Brasil from May 
 
 ```r
 # Install required packages
-install.packages(c("tidyverse", "here", "fixest", "knitr"))
+install.packages(c("tidyverse", "here", "fixest", "readxl", "janitor", "data.table"))
 
 # Run complete replication
 source(here::here("code", "99_run_all.R"))
@@ -27,22 +27,22 @@ source(here::here("code", "99_run_all.R"))
 ## Structure
 
 ```
-├── code/               # R scripts
-│   ├── 01_load_data.R
-│   ├── 02_create_analysis_data.R
-│   ├── 03_descriptive_stats.R
-│   ├── 04_did_analysis.R
-│   ├── 05_figures.R
-│   └── 99_run_all.R
+├── code/
+│   ├── 00a_download_data.R          # Download SIMEC snapshots from GitHub
+│   ├── 00b_process_simec_snapshots.R # Process raw snapshots (optional)
+│   ├── 01_did_analysis_5periods.R   # Main analysis: DiD + Event Study
+│   └── 99_run_all.R                 # Master script (run this)
 ├── data/
-│   ├── raw/            # Input data
-│   ├── processed/      # Generated data
-│   └── metadata/       # Codebook
+│   ├── raw/simec_snapshots/         # SIMEC CSV snapshots
+│   ├── processed/                   # Generated panel data
+│   └── metadata/                    # Codebook
+├── original/data/                   # Original .Rdata files
 ├── output/
-│   ├── tables/         # Generated tables
-│   └── figures/        # Generated figures
-├── REPLICATION.md      # Detailed replication guide
-└── README.md           # This file
+│   ├── tables/                      # Generated tables (.tex, .csv)
+│   └── figures/                     # Generated figures (.png, .pdf)
+├── notes/                           # Documentation and validation
+├── REPLICATION.md                   # Detailed replication guide
+└── README.md                        # This file
 ```
 
 ## Data
@@ -52,7 +52,7 @@ The analysis uses administrative data from SIMEC (Sistema Integrado de Monitoram
 ## Requirements
 
 - R >= 4.0
-- Packages: tidyverse, here, fixest, knitr
+- Packages: tidyverse, here, fixest, readxl, janitor, data.table
 
 ## Citation
 
