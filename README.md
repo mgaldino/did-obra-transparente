@@ -10,8 +10,8 @@ The Obra Transparente project was implemented by Transparência Brasil from May 
 
 ## Key Findings
 
-- **Treatment Effect**: Municipalities with CSO monitoring showed a 6.2 percentage point increase in construction completion probability (p < 0.05)
-- **Dynamic Effects**: The treatment effect grows over time, reaching 14.8 p.p. by the second period after treatment
+- **Treatment Effect**: Municipalities with CSO monitoring showed a 6.5 percentage point increase in construction completion probability (p < 0.05)
+- **Dynamic Effects**: The treatment effect grows over time, reaching 15.8 p.p. by period 5 (October 2023)
 - **Parallel Trends**: Pre-treatment coefficients are close to zero, supporting the parallel trends assumption
 
 ## Quick Start

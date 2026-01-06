@@ -41,8 +41,8 @@ This report compares the results from the original paper with those obtained fro
 
 | Metric | Paper | Replication | Match? | Notes |
 |--------|-------|-------------|--------|-------|
-| ATT | 0.14 | 0.062 | ⚠️ | See note 2 |
-| SE | (0.07) | (0.031) | ⚠️ | |
+| ATT | 0.14 | 0.065 | ⚠️ | See note 2 |
+| SE | (0.07) | (0.029) | ⚠️ | |
 | Significance | * (p<0.10) | ** (p<0.05) | ✅ | Both significant |
 | Direction | Positive | Positive | ✅ | |
 
@@ -57,16 +57,16 @@ This report compares the results from the original paper with those obtained fro
 
 | Relative Period | Paper Coef | Paper SE | Replication Coef | Replication SE | Match? |
 |-----------------|------------|----------|------------------|----------------|--------|
-| t = -2 | -0.01 | (0.05) | -0.006 | (0.042) | ✅ |
+| t = -2 | -0.01 | (0.05) | +0.011 | (0.013) | ✅ |
 | t = -1 | 0.00 | (ref) | 0.00 | (ref) | ✅ |
-| t = 0 | - | - | 0.004 | (0.025) | N/A |
-| t = +1 | 0.02 | (0.02) | 0.026 | (0.031) | ✅ |
-| t = +2 | 0.14* | (0.07) | 0.148** | (0.063) | ✅ |
+| t = 0 | - | - | +0.015 | (0.022) | N/A |
+| t = +1 | 0.02 | (0.02) | +0.041 | (0.031) | ✅ |
+| t = +2 | 0.14* | (0.07) | +0.158** | (0.073) | ✅ |
 
 **Key findings confirmed**:
 1. ✅ Pre-treatment coefficient (t=-2) not significantly different from zero → parallel trends assumption holds
 2. ✅ Treatment effect grows over time
-3. ✅ Long-run effect (t=+2) is significant and positive (~14-15 p.p.)
+3. ✅ Long-run effect (t=+2, period 5) is significant and positive (~15.8 p.p.)
 
 ---
 
@@ -77,7 +77,7 @@ This report compares the results from the original paper with those obtained fro
 | CSO monitoring increases completion | Yes | Yes | ✅ |
 | Effect is statistically significant | Yes (p<0.10) | Yes (p<0.05) | ✅ |
 | Parallel trends assumption holds | Yes | Yes | ✅ |
-| Effect magnitude ~14 p.p. (long-run) | Yes | Yes (14.8 p.p.) | ✅ |
+| Effect magnitude ~14-16 p.p. (long-run) | Yes | Yes (15.8 p.p.) | ✅ |
 | Effect grows over time | Yes | Yes | ✅ |
 
 ---
