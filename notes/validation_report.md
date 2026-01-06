@@ -30,10 +30,10 @@ This report compares the results from the original paper with those obtained fro
 |-------|--------|-------|-------------|--------|
 | Control | Aug 2017 | 49% | 49% | ✅ |
 | Treatment | Aug 2017 | 29% | 29% | ✅ |
-| Control | Aug 2019 | 59% | 59% | ✅ |
+| Control | Aug 2019 | 59% | 60% | ✅ |
 | Treatment | Aug 2019 | 42% | 42% | ✅ |
 
-**Status**: Perfect match for baseline completion rates.
+**Status**: Completion rates match within rounding (1 p.p. difference for control Aug 2019 due to balanced panel construction).
 
 ---
 
