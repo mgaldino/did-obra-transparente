@@ -16,7 +16,7 @@ This report compares the results from the original paper with those obtained fro
 | Item | Paper | Replication | Match? | Notes |
 |------|-------|-------------|--------|-------|
 | N municipalities (treated) | 21 | 21 | ✅ | |
-| N municipalities (control) | ~2,000 | 2,020 | ✅ | |
+| N municipalities (total) | ~2,000 | 2,050 | ✅ | |
 | States | SP, MG, PR, SC, RS | SP, MG, PR, SC, RS | ✅ | |
 | Treatment start | May 2017 | Sep 2018 (period 3) | ⚠️ | See note 1 |
 
@@ -88,7 +88,7 @@ The replication **successfully validates the main findings** of the paper:
 
 1. **Direction**: Positive effect confirmed
 2. **Significance**: Statistically significant effect confirmed
-3. **Magnitude**: Long-run effect of ~14-15 percentage points confirmed
+3. **Magnitude**: Long-run effect of ~15.8 percentage points confirmed
 4. **Identification**: Parallel trends assumption supported
 
 The differences in static DiD coefficients are methodologically expected due to the different panel structures (2 vs 5 periods) and are not a concern for the validity of the findings.
@@ -103,7 +103,9 @@ The differences in static DiD coefficients are methodologically expected due to 
 | `output/tables/table1_summary_stats.csv` | ✅ |
 | `output/tables/table2_completion_rates.tex` | ✅ |
 | `output/tables/table2_completion_rates.csv` | ✅ |
+| `output/tables/table3_did_static.tex` | ✅ |
 | `output/tables/table3_did_static.csv` | ✅ |
+| `output/tables/table4_event_study.tex` | ✅ |
 | `output/tables/table4_event_study.csv` | ✅ |
 | `output/figures/fig1_event_study.png` | ✅ |
 | `output/figures/fig2_completion_trends.png` | ✅ |

@@ -1,2 +1,2 @@
-Model,Treatment × Post,Std. Error,95% CI,N Observations,N Municipalities,Municipality FE,Period FE,Clustered SE
-Two-Way Fixed Effects,0.0621***,(0.0306),"[0.002, 0.122]",22609,2020,Yes,Yes,Municipality
+Model,Treatment × Post,Std. Error,95% CI,p-value,N Observations,N Municipalities,Municipality FE,Period FE,Clustered SE
+Two-Way Fixed Effects,0.065**,(0.029),"[0.008, 0.122]",0.026,22616,2050,Yes,Yes,Municipality

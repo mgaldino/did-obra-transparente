@@ -1,5 +1,6 @@
-Relative Period,Coefficient,Std. Error,Significance
--2,-0.0058,(0.0415),
-0,0.0040,(0.0247),
-1,0.0263,(0.0312),
-2,0.1475,(0.0625),**
+Relative Period,Coefficient,Std. Error,p-value,Significance
+-2,+0.011,(0.013),0.379,
+-1,0.000,(ref),-,(ref)
+0,+0.015,(0.022),0.493,
+1,+0.041,(0.031),0.183,
+2,+0.158,(0.073),0.032,**
